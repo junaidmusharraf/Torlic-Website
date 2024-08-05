@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0px;
+    background-color: #282a2b;
+}
+
+.nav-links {
+    background: #49111c;
+    text-align: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.banner {
+    width: 100%;
+    min-height: 80vh;
+    background: url("./banner/banner1.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-block {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.text-block h1 {
+    font-size: 45px;
+}
+
+.text-block p {
+    font-size: 18px;
+}
+.text-block2 {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.text-block2 h1 {
+    font-size: 45px;
+}
+
+.text-block2 p {
+    font-size: 18px;
+}
+
+.text-block3 {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.text-block3 h1 {
+    font-size: 45px;
+}
+
+.text-block3 p {
+    font-size: 18px;
+}
+
+.text-block4 {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.text-block4 h1 {
+    font-size: 45px;
+}
+
+.text-block4 p {
+    font-size: 18px;
+}
+
+.text-block5 {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 53%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.text-block5 h1 {
+    font-size: 45px;
+}
+
+.text-block5 p {
+    font-size: 18px;
+}
+
+
+.btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 40px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    border: 2px solid #7393a8;
+    background: #7393a8;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn-secondary {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 40px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    border: 2px solid #ef6351;
+    background: #ef6351;
+    color: white;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 700px) {
+    .text-block h1 {
+        font-size: 36px;
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* Grid system */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+.heading {
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+    background: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ad-banner {
+    padding: 10px;
+    text-align: center;
+    background: transparent;
+    position: relative;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #49111c;
+    padding: 80px 0px;
+    color: black;
+}
+
+footer h3 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-menu li {
+    list-style: none;
+    padding: 10px 16px;
+    position:relative;
+    text-align: center;
+    color: #49111c;
+}
+
+.copyright {
+    background: black;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.inner-banner {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.inner-banner2 {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner2.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.inner-banner3 {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner3.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.inner-banner4 {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner4.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.inner-banner5 {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner5.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.inner-banner6 {
+    width: 100%;
+    min-height: 90vh;
+    background: url("./inner banner/innerbanner6.jpg") no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.p40 {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.sidebar {
+    border-left: 1px #ccc solid;
+    padding-left: 50px;
+}
+
+.blog-area {
+    border-right: 1px #aaa solid;
+}
+
+.blog-item {
+    padding-bottom: 50px;
+}
+
+.product_name {
+    text-decoration:wavy;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 21px;
+    color: #49111c;
+    background: transparent;
+}
+
+.btn-shop {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #1f7a8c;
+    padding: 12px 40px;
+    font-size: 15px;
+    background: #1f7a8c;
+    position: relative;
+    margin-top: 20px;
+}
+
+.btn-shop:hover {
+    border: 2px solid #264025;
+    background: white;
+    color: #264025;
+    transition: 0.5s;
+}
+
+.product_card:hover {
+    border: 1px solid #ccc;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #7b9e11;
+    padding: 12px 40px;
+    font-size: 15px;
+    background: #7b9e11;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
