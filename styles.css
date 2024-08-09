@@ -217,8 +217,8 @@ html, body {
 }
 
 .btn-secondary:hover {
-    border: 2px solid #ef6351;
-    background: #ef6351;
+    border: 2px solid #212529;
+    background: #212529;
     color: white;
     transition: 0.5s;
 }
