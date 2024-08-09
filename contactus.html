@@ -13,58 +13,56 @@
 
         <!--Header-->
 
-        <header>
-            <div class="logo">
-                <img width="270px" src="logo/logos.jpg">
-            </div>
+        <header class="header">
+            <img class="logo" width="150px" src="media/logo/logos.jpg">
+            <h3 class="title">Trolic.pk</h3>
+        </header>    
 
-            <nav>
-                <div class="nav-links">
-                    <ul>
-                         <li><a href="index.2.html">Home</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                    </ul>
-                </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
             </nav>
-        </header>
 
         <!--Contact Us-->
 
         <div class="inner-banner6">
-            <div class="text-block2">        
+            <div class="text-block7">     
+                <h1>Contact Us</h1>   
             </div>
         </div>
 
-        <h1 class="heading">Contact us here</h1>
         <div class="row p40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h3>Phone: +923355100831</h3><br>
-                        <h3>Email: jmush2018@gmail.com</h3><br>
-                        <h3>Website: www.trolic.com</h3><br>
-                    </div>
-                    <div class="col-6">
-                        <form method="" action="">
-                            <label>Full name:</label>
-                            <input name="fullname" placeholder="Full Name" type="text">
-                            <label>Email:</label>
-                            <input name="email" placeholder="Email" type="text">
-                            <label>Phone no:</label>
-                            <input name="phone" placeholder="Phone Number" type="text">
-                            <label>Your Messege:</label>
-                            <textarea cols="100%" rows="20" name="messege" placeholder="Type your messege"></textarea>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
+            <div class="contact-container">             
+                <form class="contact-form" method="" action="">
+                    <div class="contact-info">
+                        <h2>Contact Us</h2>
+                        <p>If you have any questions, feel free to reach out to us. <br> We'd love to hear from you!</p>
+                        <ul class="info-list">
+                            <li><strong>Email:</strong> info@trolic.com</li>
+                            <li><strong>Phone:</strong> +92 986 7621</li>
+                            <li><strong>Address:</strong> 271 Beverly Street, Islamabad, Pakistan</li>
+                        </ul>
+                    </div> 
+                    <label>Full name</label>
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Email" required >
+                    <label>Phone number</label>
+                    <input type="text" name="phone" placeholder="Phone Number" required>
+                    <label>Messege</label>
+                    <textarea id="messege" name="messege" cols="100%" rows="5"  placeholder="Type your messege" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
                 
-
         <footer>
             <div class="row">
                 <div class="container">
